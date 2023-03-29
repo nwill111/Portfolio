@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Portfolio Details - Personal Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main id="main">
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/CampusCapture1.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/CampusCapture2.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/CampusCapture3.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Campus Capture</h3>
+                <ul>
+                  <li><strong>Category</strong>: School/Personal Project</li>
+                  <li><strong>Project date</strong>: Aug 2022-Feb 2023</li>
+                  <li>
+                    <strong>Project URL</strong>:
+                    <a
+                      href="https://github.com/Prasheeth-Venkat-Kumar/campus-capture"
+                      target="_blank"
+                      >Github Repo</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>
+                  Building Recognition of university buildings using a
+                  pre-trained ResNet50 archetecture
+                </h2>
+                <p>
+                  The purpose of this project is to create a model that can
+                  identify the building shown in an image taken by a user on the
+                  UNCC campus. The reason behind this is that there's currently
+                  no dataset available that has images of all the buildings on
+                  the UNCC campus. This project is not only fun, but it's also
+                  useful as the model, if accurate, could be used on other
+                  campuses or in large cities where multiple buildings need to
+                  be recognized. The project is limited to the UNCC campus, but
+                  the possibilities for its use in the future are endless.
+                  Imagine being able to use it for self-guided tours or even
+                  navigation. The best part? We get to create the dataset
+                  ourselves, making the project even more meaningful to the UNCC
+                  community.
+                </p>
+                <p>
+                  For this project, we used a pretrained ResNet50 archetecture
+                  as we determined from our research that this model would
+                  provide us with the best results for our use case. Despite
+                  what was found in our research, we still tested an examined
+                  the results of using other model types, such as using a CNN
+                  from scratch, or using different pretrained models. It was
+                  found that using ResNet50 would be the best for us. The
+                  hyperparameters used included a learning rate of 0.0001, 15
+                  epochs, an image size of (224 x 224), a horizontal flip data
+                  augmentation technique, and data normalization that was
+                  zero-centered. The loss function used was cross-entropy. The
+                  Adam optimizer was chosen as it is computationally efficient
+                  and better suited for non-linear applications than the
+                  alternative, Stochastic Gradient Descent (SGD).
+                </p>
+
+                <p>
+                  The resulting model provided us with an accuracy of around
+                  85&#37;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Details Section -->
+    </main>
+    <!-- End #main -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
